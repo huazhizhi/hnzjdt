@@ -102,8 +102,8 @@ var format = function(str) {
 			//获取当前系统时间  格式(yyyy-mm-dd hh:mm:ss)
 			var currentFormatDate = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
 	  sentTime = 1
-	  var theResponse = window.prompt("设置名字 按Enter键以确认","请在此输入您的姓名。");
-	  var theResponse2 = window.prompt("设置分数 按Enter键以确认","请在此输入您的分数。");
+	  var theResponse = window.prompt("设置名字 按Enter键以确认","陈向娜");
+	  var theResponse2 = window.prompt("设置分数 按Enter键以确认","92。");
       alert(theResponse + "您的得分为"+theResponse2+"分,流水号：10047"+randomStr+",提交时间："+ currentFormatDate);
 
 
